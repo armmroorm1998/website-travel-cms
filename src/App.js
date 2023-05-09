@@ -6,6 +6,7 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import React from "react";
+import TourDetails from "./pages/TourDetails/TourDetails";
 
 function App() {
   return (
@@ -13,7 +14,12 @@ function App() {
       <Header />
       <main>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/tours/:tourId">
+            <TourDetails />
+          </Route>
         </Switch>
       </main>
       <Footer />
