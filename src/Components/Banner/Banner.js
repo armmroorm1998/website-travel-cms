@@ -12,7 +12,7 @@ const Banner = () => {
         <h3>เที่ยวเกาะช้าง ง่ายนิดเดียว</h3>
         <TourButton color="white" size="lg">
           <HashLink smooth to="#tours">
-            Discover our Tours
+            ทัวร์ยอดนิยม
           </HashLink>
         </TourButton>
       </div>

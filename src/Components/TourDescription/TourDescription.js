@@ -19,7 +19,7 @@ const TourDescription = ({ tour }) => {
               <h2 className="section-heading-sm">รายละเอียดทัวร์</h2>
               <ul>
                 <li className={classes.price}>
-                  <span>PRICE : </span> ${tour.price}
+                  <span>PRICE : </span> ฿{tour.price}
                 </li>
                 <li>
                   <span>NEXT DATE :</span>
@@ -36,7 +36,7 @@ const TourDescription = ({ tour }) => {
                   <span>Duration : </span> {tour.duration} วัน
                 </li>
                 <li>
-                  <span>DIFFICULTY : </span> {tour.difficulty}
+                  <span>DIFFICULTY : </span> {tour.dinner}
                 </li>
                 <li>
                   <span>RATING : </span> {tour.ratingsAverage} / 5

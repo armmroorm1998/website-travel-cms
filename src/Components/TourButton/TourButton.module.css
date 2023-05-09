@@ -47,11 +47,11 @@
 .btn--white {
   background-color: #679cc1;
 }
-.btn--white:hover{
+.btn--white:hover {
   background-color: #ffffff;
   color: #679cc1;
 }
-.btn--white:hover a{
+.btn--white:hover a {
   color: #679cc1;
 }
 .btn--text--white:hover {
@@ -60,7 +60,7 @@
 
 .btn--white::after {
   background-color: #679cc1;
-  color:#ffffff
+  color: #ffffff;
 }
 
 .btn--green {

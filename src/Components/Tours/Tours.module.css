@@ -16,7 +16,6 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  
 }
 
 .card__header {
@@ -76,12 +75,15 @@
   background-color: #f7f7f7;
   padding: 25px 30px;
   border-top: 1px solid #f1f1f1;
-  font-size: 15px;
-  display: grid;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   margin-top: auto;
+  text-align: center;
 }
 .card__footer-value {
   font-weight: 700;
@@ -102,18 +104,17 @@
 .heading-tertirary {
   color: #fff;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 900;
 }
 .heading-tertirary span {
-  
   line-height: 1.35;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
-  background-color: #91caf06e;
+  background-color: #a0becb6e;
 }
 
 .heading-tertirary {
-  font-size: 27.5px;
+  font-size: 30px;
   text-align: right;
   position: absolute;
   bottom: 10px;
