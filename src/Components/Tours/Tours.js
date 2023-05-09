@@ -9,7 +9,7 @@ import { useHistory } from "react-router";
 const Tours = () => {
   const defaultTours = [
     {
-      _id: -1,
+      _id: 1,
       name: "เกาะช้าง",
       summary: "เกาะช้าง 3 วัน 3 ท่าน",
       startDates: new Date(),
@@ -21,7 +21,7 @@ const Tours = () => {
         "https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03002767_1.jpeg",
     },
     {
-      _id: -1,
+      _id: 2,
       name: "เกาะช้าง",
       summary: "เกาะช้าง 5 วัน 4 ท่าน",
       startDates: new Date(),
@@ -33,7 +33,7 @@ const Tours = () => {
         "https://www.atsiamtour.com/Upload/PackageType/37/cover.jpg?version=20200929151933733",
     },
     {
-      _id: -1,
+      _id: 3,
       name: "เกาะช้าง",
       summary: "เกาะช้าง 7 วัน 5 ท่าน",
       startDates: new Date(),
