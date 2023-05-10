@@ -62,7 +62,7 @@ code {
   content: "";
   display: block;
   height: 2px;
-  width: 400px;
+  width: 150px;
   background-image: linear-gradient(to right, #679cc1, #fff);
   margin: 12px 0 35px;
 }
